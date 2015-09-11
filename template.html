@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>Application</title>
+    <meta name="description" content = "Application">
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+
+
+<body data-spy = "scroll" data-target = "#my_navbar">
+   <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id = "my_navbar">
+        <div class = "container">
+            <div class = "navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span> <!-- These do not appear for some reason -->
+                    <span class="icon-bar"></span> <!-- These do not appear for some reason -->
+                    <span class="icon-bar"></span> <!-- These do not appear for some reason -->
+                    <span class="icon-bar"></span> <!-- These do not appear for some reason -->
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a href = "" class = "navbar-brand">Application</a>
+            </div>
+            <div class = "collapse navbar-collapse" id = "#navbar-collapse">
+            
+                <a href = "" class = "btn btn-default navbar-btn navbar-right">Download Now</a>
+                
+                <ul class = "nav navbar-nav">
+                    <li><a href ="#feedback">Feedback</a>
+                    <li><a href ="#gallery">Gallery</a>
+                    <li><a href ="#features">Features</a>
+                    <li><a href ="#faq">FAQ</a>
+                    <li><a href ="#contactus">ContactUs</a>
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- end Navbar -->
+    
+    <!-- Jumbotron -->
+    <div class = "jumbotron">
+        <div class = "container text-center">
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam purus nisi, hendrerit vitae rhoncus vel, porttitor vitae nunc. Sed sit amet magna quis ex porttitor lacinia quis ac augue. Quisque varius consequat ante vel aliquam. Cras lectus neque, aliquam quis nunc eu, vulputate sollicitudin eros. Donec nec justo nec nulla viverra consectetur ut sit amet dolor. Quisque bibendum, enim ac sagittis mattis, urna dui posuere justo, ac porttitor ligula urna nec tellus. Ut volutpat odio eget ante rutrum, ac maximus leo vulputate. Nullam tempus justo ac egestas dapibus. Nam et libero bibendum, dapibus sem quis, viverra sem. In tincidunt ex eget auctor commodo. Donec nec pharetra velit. Fusce fermentum, justo sit amet laoreet egestas, velit est euismod lectus, et viverra nunc massa nec purus. Suspendisse eget condimentum urna. Fusce lacus velit, congue id sollicitudin sit amet, cursus sed tortor.</p>
+            <div class = "btn-group">
+                <a href ="" class = "btn btn-lg btn-warning">Download App</a>
+                <a href ="" class = "btn btn-lg btn-primary">Visit Store</a>
+                <a href ="" class = "btn btn-lg btn-info">Spread The Word</a>
+            </div>
+        </div>
+    </div> <!-- end Jumbotron -->
+    
+    <div class = "container"> <!-- Container -->
+        <section>
+            <div class = "page-header" id = "feedback">
+                <h2>Feedback.<small>Check out the Awesome Feedback</small></h2>
+            </div>
+            <div class = "row">
+                <div class = "col-md-4">
+                    <blockquote>
+                        <p>Nam cursus, mauris id aliquam faucibus, nibh ante posuere lorem, eu efficitur enim odio vitae ante.</p>
+                        <footer>John Doe</footer>
+                    </blockquote>
+                </div>
+                <div class = "col-md-4">
+                    <blockquote>
+                        <p>Nam cursus, mauris id aliquam faucibus, nibh ante posuere lorem, eu efficitur enim odio vitae ante.</p>
+                        <footer>John Doe</footer>
+                    </blockquote>
+                </div>
+                <div class = "col-md-4">
+                    <blockquote>
+                        <p>Nam cursus, mauris id aliquam faucibus, nibh ante posuere lorem, eu efficitur enim odio vitae ante.</p>
+                        <footer>John Doe</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+    </div> <!-- end Container -->
+    
+    <!-- call to action -->
+    <section>
+        <div class = "well">
+            <div class = "container text-center">
+                <h3>Subscribe for more Free Stuff</h3>
+                <p>Enter your name and e-mail</p>
+                
+                <form action="" class="form-inline">
+                    <div class ="form-group">
+                        <label for = "subscription">Subscribe</label>
+                        <input type ="text" class = "form-control" id = "subscription" placeholder = "Name">
+                    </div>
+                    <div class ="form-group">
+                        <label for = "email">Email Address</label>
+                        <input type ="text" class = "form-control" id = "email" placeholder = "Email">
+                    </div>
+                    <button type = "submit" class = "btn btn-default">Subscribe</button>
+                    <hr>
+                </form>
+            </div>
+        </div>
+    </section> <!-- end call to action -->
+    
+    <!-- Gallery -->
+    <div class = "container">
+        <section>
+            <div class = "page-header" id = "gallery">
+                <h2>Gallery.<small>Check out the Awesome Gallery</small></h2>
+            </div>
+            
+            <div class = "carousel slide" id = "screenshot-carousel" data-ride ="carousel">
+                <ol class = "carousel-indicators">
+                    <li data-target="#screenshot-carousel" data-slide-to="0" class = "active"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class = "carousel-inner" role = "list-box"> <!-- carousel inner -->
+                    <div class = "item active">
+                        <img src = "background.png" alt = "Image1">
+                        <div class = "carousel-caption"><h3>Heading One</h3>
+                        <p>Caption One</p></div>
+                    </div>
+                    <div class = "item">
+                        <img src = "background2.png" alt = "Image2">
+                        <div class = "carousel-caption"><h3>Heading Two</h3>
+                        <p>Caption Two </p></div>
+                    </div>
+                    <div class = "item">
+                        <img src = "background3.png" alt = "Image3">
+                        <div class = "carousel-caption"><h3>Heading Three</h3>
+                        <p>Caption Three</p></div>
+                    </div>
+                </div><!-- end carousel inner -->
+                <a href = "#screenshot-carousel" class = "left carousel-control" data-slide = "prev">
+                    <span class = "glyphicon glyphicon-chevron-left">
+                        
+                    </span>
+                </a>
+                <a href = "#screenshot-carousel" class = "right carousel-control" data-slide = "next">
+                    <span class = "glyphicon glyphicon-chevron-right">
+                        
+                    </span>
+                </a>
+            </div>
+        </section>
+    </div> <!-- end Gallery -->
+    
+    <!-- features -->
+    <div class = "container">
+        <div class = "page-header" id = "features">
+                <h2>Features.<small>Check out the Awesome Features</small> </h2>
+            <div class = "row">
+                <div class = "col-sm-8">
+                  <h3>This is the Heading</h3> 
+                    <p>Ut consequat vehicula mauris eu commodo. Vivamus mi quam, eleifend et semper id, eleifend vitae nisl.</p>
+                </div>
+                <div class = "col-sm-4">
+                    <img src = "peasant.png" alt = "Sample Image" class = "img-responsive">
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-sm-8">
+                  <h3>This is the Heading</h3> 
+                    <p>Ut consequat vehicula mauris eu commodo. Vivamus mi quam, eleifend et semper id, eleifend vitae nisl.</p>
+                </div>
+                <div class = "col-lg-4">
+                    <img src = "peasant.png" alt = "Sample Image" class = "img-responsive">
+                </div>
+            </div>
+        </div>
+     
+    
+    <!-- row -->
+    <div class = "row">
+        <div class = "col-lg-4">
+            <div class = "panel panel-default text-center">
+                <div class = "panel-body">
+                    <span class = "glyphicon glyphicon-ok"></span>
+                    <h4>This is the Heading</h4>
+                    <p>Donec in urna lectus. Sed eu quam a massa dapibus feugiat. Curabitur eget metus mattis orci efficitur laoreet.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "col-lg-4">
+            <div class = "panel panel-default text-left">
+                <div class = "panel-body">
+                    <span class = "glyphicon glyphicon-star"></span>
+                    <h4>This is the Heading</h4>
+                    <p>Donec in urna lectus. Sed eu quam a massa dapibus feugiat. Curabitur eget metus mattis orci efficitur laoreet.</p>
+                </div>
+            </div>
+        </div> 
+        <div class = "col-lg-4">
+            <div class = "panel panel-default text-right">
+                <div class = "panel-body">
+                    <span class = "glyphicon glyphicon-play-circle"></span>
+                    <h4>This is the Heading</h4>
+                    <p>Donec in urna lectus. Sed eu quam a massa dapibus feugiat. Curabitur eget metus mattis orci efficitur laoreet.</p>
+                </div>
+            </div>
+        </div> 
+    </div> <!-- end row -->
+    </div> <!-- end features -->
+    
+    <!-- FAQ -->
+    <div class = "container">
+        <section>
+            <div class = "page-header" id = "faq">
+                <h2>FAQ.<small>Engaging with consumers.</small></h2>
+            </div>
+            <div class = "panel-group" id = "accordion">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <div class = "panel-title">
+                            <a href = "#collapse-1" data-toggle = "collapse" data-parent = "#accordion">
+                                Question 1
+                            </a>
+                        </div><!-- end panel title -->
+                        <div id = "collapse-1" class = "panel-collapse collapse">
+                            <div class = "panel-body">
+                                <p>Suspendisse sapien nisl, convallis quis ligula sit amet, lobortis scelerisque nisi. Vestibulum pulvinar bibendum feugiat. Nam est dui, pellentesque non placerat at, molestie id diam. Phasellus maximus posuere ligula vel faucibus. Nunc imperdiet risus sed ex facilisis pharetra. Donec in erat in felis pulvinar sodales convallis id sem. Nulla quis odio vel sem elementum ultrices. Nulla pulvinar lectus quis commodo porttitor. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <div class = "panel-title">
+                            <a href = "#collapse-2" data-toggle = "collapse" data-parent = "#accordion">
+                                Question 2
+                            </a>
+                        </div><!-- end panel title -->
+                        <div id = "collapse-2" class = "panel-collapse collapse">
+                            <div class = "panel-body">
+                                <p>Suspendisse sapien nisl, convallis quis ligula sit amet, lobortis scelerisque nisi. Vestibulum pulvinar bibendum feugiat. Nam est dui, pellentesque non placerat at, molestie id diam. Phasellus maximus posuere ligula vel faucibus. Nunc imperdiet risus sed ex facilisis pharetra. Donec in erat in felis pulvinar sodales convallis id sem. Nulla quis odio vel sem elementum ultrices. Nulla pulvinar lectus quis commodo porttitor. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <div class = "panel-title">
+                            <a href = "#collapse-3" data-toggle = "collapse" data-parent = "#accordion">
+                                Question 3
+                            </a>
+                        </div><!-- end panel title -->
+                        <div id = "collapse-3" class = "panel-collapse collapse">
+                            <div class = "panel-body">
+                                <p>Suspendisse sapien nisl, convallis quis ligula sit amet, lobortis scelerisque nisi. Vestibulum pulvinar bibendum feugiat. Nam est dui, pellentesque non placerat at, molestie id diam. Phasellus maximus posuere ligula vel faucibus. Nunc imperdiet risus sed ex facilisis pharetra. Donec in erat in felis pulvinar sodales convallis id sem. Nulla quis odio vel sem elementum ultrices. Nulla pulvinar lectus quis commodo porttitor. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end panel group -->
+            
+            
+        </section>
+    </div> <!-- end FAQ container -->
+    
+    <!-- ContactUs -->
+    <div class = "container">
+        <section>
+            <div class = "page-header" id = "contactus">
+                <h2>Contact Us.<small>Learn more information.</small></h2>
+            </div>
+            
+            <div class = "row">
+                <div class = "col-lg-4">
+                    <p>Send us a message, or contact our Human Resources.</p>
+                    <address>
+                        <strong>WiredWiki Pvt. Ltd.</strong><br>
+                        111 Lorem Ipsum<br>
+                        CDA ID<br>
+                        111-111-2222
+                    </address>
+                </div>
+                <div class = "col-lg-8">
+                    <form action = "" class = "form-horizontal">
+                        <div class = "form-group">
+                            <label for = "user-name" class = "col-lg-2 control-label"> <!-- labels use 2 columns -->
+                                Name
+                            </label>
+                            <div class = "col-lg-10">
+                                <input type = "text" class = "form-control" id = "user_name" placeholder = "Enter your name">
+                            </div>
+                        </div> <!-- end form group -->
+                    <form action = "" class = "form-horizontal">
+                        <div class = "form-group">
+                            <label for = "user-email" class = "col-lg-2 control-label"> <!-- labels use 2 columns -->
+                                Email
+                            </label>
+                            <div class = "col-lg-10">
+                                <input type = "text" class = "form-control" id = "user_email" placeholder = "Enter your email">
+                            </div>
+                        </div> <!-- end form group -->
+                    <form action = "" class = "form-horizontal">
+                        <div class = "form-group">
+                            <label for = "user-address" class = "col-lg-2 control-label"> <!-- labels use 2 columns -->
+                                Address
+                            </label>
+                            <div class = "col-lg-10">
+                                <input type = "text" class = "form-control" id = "user_address" placeholder = "Enter your address">
+                            </div>
+                        </div> <!-- end form group -->
+                    <form action = "" class = "form-horizontal">
+                        <div class = "form-group">
+                            <label for = "user-phone" class = "col-lg-2 control-label"> <!-- labels use 2 columns -->
+                                Comments
+                            </label>
+                            <div class = "col-lg-10">
+                                <textarea name = "user-message" id = "user-message" class = "form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div> <!-- end form group -->
+                        <div class = "form-group">
+                            <div class = "col-lg-10 col-lg-offset-2">
+                                <button type = "submit" class = "btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- end row -->
+        </section>
+    </div>
+                
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <div class = "container text-center">
+                <h3>Subscribe for more Free Stuff</h3>
+                <p>Enter your name and e-mail</p>
+                
+                <form action="" class="form-inline">
+                    <div class ="form-group">
+                        <label for = "subscription">Subscribe</label>
+                        <input type ="text" class = "form-control" id = "subscription" placeholder = "Name">
+                    </div>
+                    <div class ="form-group">
+                        <label for = "email">Email Address</label>
+                        <input type ="text" class = "form-control" id = "email" placeholder = "Email">
+                    </div>
+                    <button type = "submit" class = "btn btn-default">Subscribe</button>
+                </form>
+            </div>
+        <hr>
+        <ul class = "list-inline text-center">
+            <li><a href = "http://www.twitter.com">Twitter</a></li>
+            <li><a href = "http://www.google.com">Google</a></li>
+            <li><a href = "http://www.facebook.com">Facebook</a></li>
+        </ul>
+        
+        <p class = "text-center">&copy; Copyright @ 2015</p>
+    </footer>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+
+
+</html>
